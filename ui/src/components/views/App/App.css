@@ -1,0 +1,98 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.app {
+  text-align: center; 
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+.app-header {
+  margin-bottom: 5px;
+  width: 75%;
+  float: right;
+  font-weight: bold;
+  font-size: 26pt;  
+  color:#113038;
+  text-shadow: 2px 2px 2px #354D3D;
+  border-radius: 8px;
+}
+
+.app-forms {
+  background-color: #113038;
+  color: #c0d0c4;
+  box-shadow: 2px 2px 4px #6E7B9B;
+  width: 25%;
+  float: left;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.app-main{
+  float: right;
+  width: 75%;
+}
+
+.overlayModal {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 400ms ease-in;
+  background: rgba(0,0,0,0.8);
+}
+
+.overlayModal-open {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modal_after-open {
+  background-color: #113038;
+  color: #c0d0c4; 
+  border-radius: 5px; 
+  width: 40%;
+  position: relative;
+  margin: 3% auto;
+  min-height: 180px;
+  padding: 3%;;
+}
+
+.modal_after-open .rate-list{
+    margin: auto;
+    width: 70%;
+}
+
+.modal_after-open input[type=email]{
+    margin: 2% auto;
+    height: 20px;
+    width: 70%;
+}
+
+.modal_after-open .rate-list label{
+    color: #FFE323;
+}
+
+.modal_after-open .form-buttons{
+  width: 100%;
+}
+
+.modal_after-open .form-buttons button{
+  color: #113038; 
+  float: right;
+  margin: 6px;
+  height: 30px;
+  width: 21%;
+}
+
+.modal_after-open .form-buttons button:hover{
+  background-color: #113038; 
+  color: #c0d0c4;
+}

@@ -1,0 +1,28 @@
+.add-drink-form {
+	height: 292px;
+    padding: 8px;
+}
+
+.add-drink-form .group-elements {
+	text-align: left;
+	margin: 5px 0;
+	width: 100%;
+}
+
+.add-drink-form .group-elements input {
+	width: 98%;
+	height: 25px;
+}
+
+.add-drink-form button {
+	cursor: pointer;
+	margin-top: 7px;
+    width: 28%;
+    height: 30px;
+    float: right;
+}
+
+.add-drink-form button:hover {
+  	background-color: #113038; 
+  	color: #c0d0c4;
+}

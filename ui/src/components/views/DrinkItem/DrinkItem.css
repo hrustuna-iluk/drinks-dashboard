@@ -1,0 +1,38 @@
+.drink-item {
+	background-color: #2D3D41;
+	border: 1px solid #2D3D41;
+	border-radius: 4px;
+	box-shadow: 4px 4px 4px #354D3D;
+	color: #c0d0c4;
+	width: 29%;
+	height: 115px;
+	float: left;
+	padding: 5px;
+	margin: 0 5px 10px 5px;
+}
+
+.drink-item .icons {
+	float: right;
+}
+
+.drink-item .rate-drink, 
+.drink-item .like-drink {
+	cursor: pointer;
+	margin: 2px;
+}
+
+.drink-item .like-drink {
+	color: 	#800000;
+}
+
+.drink-item .like-drink:hover {
+	color: #FF0000;
+}
+
+.drink-item .rate-drink {
+	color: #BC8C05;
+}
+
+.drink-item .rate-drink:hover {
+	color: #FFFF00;
+}
