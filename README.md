@@ -10,7 +10,7 @@ git clone https://github.com/hrustuna-iluk/drinks-dashboard.git
 
 
 
-##To set up backend
+###To set up backend
 
 
 
@@ -34,7 +34,7 @@ python manage.py runserver
 
 
 
-##To set up UI
+###To set up UI
 
 
 cd drinks-dashboard/ui
